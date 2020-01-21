@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Igor Kozmarev](https://up.htmlacademy.ru/htmlcss/27/user/1282213).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/skywalker).
 
 ---
 
