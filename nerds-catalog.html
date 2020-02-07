@@ -22,7 +22,38 @@
     <main class="container">
       <h1 class="page-title" >Магазин готовых шаблонов</h1>
        <section class="filters">
-         <h2 class=" "> Фильтр товаров</h2>>   
+         <h2 class="visually-hidden"> Фильтр товаров</h2>
+         <form class="filter" metod="get"
+         action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Сетка:</legend>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="Слайдер" id="slider" checked>
+             <label for="slider"> Слайдер </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Блок преимуществ" id="benefits-block">
+              <label for="benefits-block"> Блок преимуществ </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Новости" id="news" checked>
+              <label for="news"> Новости </label>
+            </li>
+            <li>
+              <input type="checkbox" name="Галерея" id="gallery">
+              <label for="gallery">Галерея</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Корзина" id="cart">
+              <label for="cart">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+         </form>
        </section>
        <section class="catalog">
         <h2 class=" "> Список карточек товаров</h2>
@@ -144,5 +175,24 @@
         </ul>
        </div>
     </footer>
+    <section>
+      <h2>Напишите нам</h2>
+      <button type="button">Закрыть</button>
+        <form action="https://echo.htmlacademy.ru" method="post">  
+         <p>
+           <label for="appointment-name">Ваше имя:</label>
+           <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+         </p>
+         <p>
+           <label for="user-email">Ваш e-mail </label>
+           <input id ="user-email" type="email" name="email" value="" placeholder="email@example.com">
+         </p>
+         <p>
+           <label for="text-letter">Текст письма:</label>
+           <input id="text-letter" type="text" name="text" value="" placeholder="В свободной форме">
+         </p>
+         <button type="submit">Отправить</button>
+        </form>> 
+   </section>
   </body>
 </html>
