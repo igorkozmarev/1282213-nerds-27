@@ -23,20 +23,20 @@
       <h1 class="page-title" >Магазин готовых шаблонов</h1>
        <section class="filters">
          <h2 class="visually-hidden"> Фильтр товаров</h2>
-         <form class="filter" metod="get" action="https://echo.htmlacademy.ru">
+         <form class="filter" method="post" action="https://echo.htmlacademy.ru">
            <fieldset>
               <legend>Сетка:</legend>
               <ul>
-                <li>
-                  <input type="radio" name="grid" value="adaptive" id="filter-adaptive">
+                <li> 
+                  <input  type="radio" class="visually-hidden" name="grid" value="adaptive" id="filter-adaptive">
                   <label for="filter-adaptive"> Адаптивная</label>
                 </li>
                 <li>
-                  <input type="radio" name="grid" value="fixed" id="filter-fixed">
+                  <input type="radio" class="visually-hidden" name="grid" value="fixed" id="filter-fixed">
                   <label for="filter-fixed">Фиксированная</label>
                 </li>
                 <li>
-                  <input type="radio" name="grid" value="rubber" id="filter-rubber">
+                  <input type="radio" class="visually-hidden" name="grid" value="rubber" id="filter-rubber">
                   <label for="filter-rubber">Резиновая</label>
                 </li>
               </ul>
@@ -45,23 +45,23 @@
              <legend>Особенности:</legend>
              <ul>
                <li>
-                 <input type="checkbox" name="Слайдер" id="slider" checked>
+                 <input type="checkbox" class="visually-hidden" name="slider" id="slider" checked>
                  <label for="slider"> Слайдер </label>
                </li>
                <li>
-                 <input type="checkbox" name="Блок преимуществ" id="benefits-block">
+                 <input type="checkbox" class="visually-hidden" name="benefits-block" id="benefits-block">
                  <label for="benefits-block"> Блок преимуществ </label>
                </li>
                <li>
-                 <input type="checkbox" name="Новости" id="news" checked>
+                 <input type="checkbox" class="visually-hidden" name="news" id="news" checked>
                  <label for="news"> Новости </label>
                </li>
                <li>
-                 <input type="checkbox" name="Галерея" id="gallery">
+                 <input type="checkbox" class="visually-hidden" name="gallery" id="gallery">
                  <label for="gallery">Галерея</label>
                </li>
                <li>
-                 <input type="checkbox" name="Корзина" id="cart">
+                 <input type="checkbox" class="visually-hidden" name="cart" id="cart">
                  <label for="cart">Корзина</label>
                </li>
              </ul>
@@ -159,6 +159,12 @@
               </a>
             </li>
         </ul>
+        <ul>
+          <li><a>1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">Следующая</a></li>
+        </ul>
       </section>
       <section>
         <address>
@@ -180,13 +186,13 @@
         <p> Скидка 10% для друзей из социальных сетей</p>
         <ul>
           <li>
-            <a href="#">Вконтакте</a>
+            <a href="#"><span class="visually-hidden">Вконтакте</span></a>
           </li>
           <li>
-            <a href="#">Фейсбук</a>
+            <a href="#"><span class="visually-hidden">Фейсбук</span></a>
           </li>
           <li>  
-            <a href="#">Инстаграм</a>
+            <a href="#"><span class="visually-hidden">Инстаграм</span></a>
           </li>
         </ul>
        </div>
