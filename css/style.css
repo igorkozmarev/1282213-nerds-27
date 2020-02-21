@@ -7,16 +7,14 @@ body {
   font-weight:400;
   font-family:"Roboto",Arial,serif;
   background-color: white;
-
-}
+ }
 .main-header, .page-title{
   background-color:#eeeeee;
   color:black;
 }
 .logo
 {
-  padding-left: 140px;
-  padding-top: 50px;
+ text-align: left;
 }
 
  .main-navigation ul
@@ -30,6 +28,37 @@ body {
   text-transform: uppercase;
   color: #000000;
 }
+.main-navigation a:hover
+{
+color: #fb565a;
+}
+.slider a
+{
+  background-color:#fb565a;
+  text-transform: uppercase;
+  color:white;
+  text-decoration:none;
+  border: 1px solid #fb565a;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.slider a:hover
+{
+  background-color:#e74246;
+  border: 1px solid #e74246;
+}
+.slide-2
+{
+    display: none;
+}
+
+.slide-3
+{
+  display: none;
+}
+
 .order
 {
   color:black;
@@ -40,13 +69,111 @@ body {
  text-decoration:none;
  color:white;
  text-transform: uppercase;
+
 }
 .web{
   background-color:#fb565a;
+  border: 1px solid #fb565a;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+.web:hover
+{
+  background-color:#e74246;
+  border: 1px solid #e74246;
 }
-.app{
+.app
+{
   background-color: #00ca74;
+  border: 1px solid #00ca74;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.show{
+.app:hover
+{
+  background-color:#00bc6c;
+  border: 1px solid #00bc6c;
+}
+
+.show
+{
   background-color: #efc84a;
+  border: 1px solid #efc84a;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.show:hover
+{
+  background-color:#eab534;
+  border: 1px solid #eab534;
+}
+
+.address{
+background-color:gray;
+width: 320px;	height: 310px;
+}
+.address p:nth-child(1)
+{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family:"Roboto",Arial,serif;
+  font-style: normal;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.write {
+  text-decoration:none;
+  color:white;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: 1px solid #fb565a;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.write:hover{
+  background-color: #e74246;
+  border: 1px solid #e74246;
+}
+
+
+
+footer
+{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 25px;
+  color: black ;
+  font-weight:400;
+  font-family:"Roboto",Arial,serif;
+  background-color: white;
+  text-align: center;
+}
+.footer ul
+{
+  list-style: none;
+}
+.footer a
+{
+  text-decoration:none;
+}
+.footer b
+{
+
+}
+.visually-hidden
+{
+  display:none;
 }
