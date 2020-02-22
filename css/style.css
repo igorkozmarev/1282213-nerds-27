@@ -1,55 +1,90 @@
-body {
+body
+{
   margin: 0;
-  padding: 0;
+  padding-left: 140px;
+  padding-right: 140px;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 24px;
   color: black ;
   font-weight:400;
   font-family:"Roboto",Arial,serif;
   background-color: white;
-  text-align: center;
  }
-.main-header, .page-title{
-  background-color:#eeeeee;
-  color:black;
-}
-.logo
-{
- text-align: left;
+
+
+  a
+ {
+   text-decoration: none;
+ }
+ /* Убираем линии у ссылок */
+
+
+ p
+ {
+  color:#797c7f;
+ }
+ /* Меняем цвет у параграфоф */
+
+ .button
+ {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
 }
 
- .main-navigation ul
+.main-navigation
+{
+  font-size: 14px;
+  line-height: 20px;
+  background-color:#eeeeee;
+  color:black;
+  padding-left: -140px;
+  padding-right: -140px;
+}
+
+.site-navigation,
+.basket
 {
   list-style: none;
-  display: inline;
 }
+/* Убираем буллиты */
+
+
 .main-navigation a
 {
-  text-decoration:none;
   text-transform: uppercase;
   color: #000000;
 }
-.main-navigation a:hover
+/* Задаём ссылкам заглавные буквы */
+
+.main-navigation a:hover,
+.main-navigation a:focus
 {
 color: #fb565a;
 }
-.slider a
+/* Меняем цвет при наведении и фокусе */
+
+.slider b
 {
-  background-color:#fb565a;
-  text-transform: uppercase;
-  color:white;
-  text-decoration:none;
-  border: 1px solid #fb565a;
-  padding-left: 55px;
-  padding-right: 55px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-size: 55px;
+  line-height: 55px;
 }
-.slider a:hover
+/* Меняем размеры b */
+
+
+.button:hover,
+.button:focus
 {
   background-color:#e74246;
-  border: 1px solid #e74246;
 }
+/* Цвет фокуса  и наведения*/
+
 .slide-2
 {
     display: none;
@@ -59,81 +94,118 @@ color: #fb565a;
 {
   display: none;
 }
+/* Убираем лишние слайды */
+
 
 .order
 {
   color:black;
   list-style: none;
 }
- .order a
-{
- text-decoration:none;
- color:white;
- text-transform: uppercase;
+/* Убираем буллиты */
 
-}
-.web{
-  background-color:#fb565a;
-  border: 1px solid #fb565a;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  }
-.web:hover
+.product
 {
-  background-color:#e74246;
-  border: 1px solid #e74246;
+  text-align: left;
 }
+/* Выравниваем по левому краю */
+
+.order h3
+{
+  line-height: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* Задаём размеры заголовков */
+
+
 .app
 {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
   background-color: #00ca74;
-  border: 1px solid #00ca74;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border: none;
 }
-.app:hover
+/* Стилизуем ссылку */
+
+.app:hover,
+.app:focus
 {
   background-color:#00bc6c;
-  border: 1px solid #00bc6c;
 }
+/* Добавляем стиль при фокусе, наведении */
 
 .show
 {
-  background-color: #efc84a;
-  border: 1px solid #efc84a;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color:  #efc84a;
 }
-.show:hover
+/* Стилизуем ссылку */
+
+.show:hover,
+.show:focus
 {
   background-color:#eab534;
-  border: 1px solid #eab534;
 }
+/* Добавляем стиль при фокусе, наведении */
+
+
+.index-columns
+{
+background-color:#ffffff;
+}
+
+
+
+.description h2
+{
+  font-size: 45px;
+  line-height: 45px;
+}
+.description b
+{
+  text-transform: uppercase;
+}
+.description li
+{
+  color:#797c7f;
+
+}
+/* Описание класса description */
+
+
+
+.statistics li
+{
+  list-style: none;
+  font-size: 45px;
+  line-height: 10.06px;
+}
+.statistics .start
+{
+  color:black;
+  text-transform: uppercase;
+}
+/* Описание класса statistics */
 
 .address{
-background-color:gray;
+background-color:white;
 width: 320px;	height: 310px;
 }
-.address p:nth-child(1)
-{
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-family:"Roboto",Arial,serif;
-  font-style: normal;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 60px;
-  padding-bottom: 20px;
-}
+
 
 .write {
-  text-decoration:none;
   color:white;
   text-transform: uppercase;
   background-color: #fb565a;
@@ -165,10 +237,6 @@ footer
 .footer ul
 {
   list-style: none;
-}
-.footer a
-{
-  text-decoration:none;
 }
 .footer b
 {
