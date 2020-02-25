@@ -74,7 +74,7 @@
           <h3>Презентации</h3>
           <p> Вы даже не подозреваете,
             насколько вы изумительны!</p>
-          <a class="show" href="">Заказать</a>
+          <a class="presentation" href="">Заказать</a>
         </div>
       </section>
       <div class="index-columns">
@@ -98,29 +98,43 @@
           </ul>
         </section>
       </div>
-      <section>
+      <section class="logotypes">
         <ul>
           <li>
-             <a href="https://htmlacademy.ru/intensive/htmlcss">
-               <img src="img/logo-1.png" width="199" height="68" alt="Логотип htmlacademy">
+             <a class="logo-1" href="https://htmlacademy.ru/intensive/htmlcss">
+               <img class="logo-1" src="img/logo-1.png" width="199" height="68" alt="Логотип htmlacademy">
              </a>
           </li>
-          <li><img src="img/logo-2.png" width="209" height="87" alt="Логотип барбершоп Borodinski"></li>
-          <li><img src="img/logo-3.png" width="185" height="52" alt="Логотип pink"></li>
-          <li><img src="img/logo-4.png" width="173" height="84" alt="Логотип mishka"></li>
+          <li>
+            <a class="logo-2" href="#">
+              <img src="img/logo-2.png" width="209" height="87" alt="Логотип барбершоп Borodinski">
+            </a>
+          </li>
+          <li>
+            <a class="logo-3" href="#">
+              <img src="img/logo-3.png" width="185" height="52" alt="Логотип pink">
+            </a>
+          </li>
+          <li>
+            <a class="logo-4" href="#">
+            <img src="img/logo-4.png" width="173" height="84" alt="Логотип mishka">
+            </a>
+          </li>
         </ul>
       </section>
-      <section class="address">
-        <address>
-          <p>
+      <section class="address" >
+        <!-- <address> -->
+        <div >
+          <b>
            Nёrds design studio
-          </p>
+          </b>
           <p>191186, Санкт-Петербург,
             ул. Б. Конюшенная, д. 19/8
 
             тел. +7 (812) 275-75-75</p>
-        </address>
-          <a class="button" href="">Напишите нам</a>
+        </div>
+        <!-- </address> -->
+          <a class="write-1" href="">Напишите нам</a>
           <img src="img/map.png" width="1440" height="416" alt="адрес офиса г. Санкт-Петербург,
            Б. Конюшенная, д. 19/8">
           <img src="img/map-marker.png" width="231" height="190" alt="Указатель на карте">
@@ -146,7 +160,7 @@
     <section class="visually-hidden">
       <h2>Напишите нам</h2>
       <button type="button"><span class="visually-hidden">Закрыть</span></button>
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <form class="write-form" action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label for="appointment-name">Ваше имя:</label>
           <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
@@ -159,7 +173,7 @@
           <label for="text-letter">Текст письма:</label>
           <input id="text-letter" type="text" name="text" value="" placeholder="В свободной форме">
         </p>
-        <button type="submit">Отправить</button>
+        <button class="write-1" type="submit">Отправить</button>
       </form>
     </section>
   </body>
