@@ -40,6 +40,10 @@ body{
 }
 /* Убираем буллиты */
 
+.site-navigation-current{
+  color: #000000;
+  border-bottom: 2px solid #fb565a;
+}
 
 .main-navigation a{
   text-transform: uppercase;
@@ -58,9 +62,7 @@ color: #fb565a;
   color:#afafaf;
 }
 
-.slide-active{
-  background-color:#eeeeee;
-}
+
 /*
 .slide{
   display: none;
@@ -74,6 +76,15 @@ color: #fb565a;
 .slider p{
   color: #283136;
 }
+.slider-slide{
+  display: none;
+}
+/* Прячем слайды */
+.slider-slide-active{
+  background-color:#eeeeee;
+  display:block;
+}
+
 
 .button:hover,
 .button:focus{
@@ -236,6 +247,7 @@ color: #fb565a;
   font-size: 55px;
   line-height: 55px;
   text-align: center;
+  color: #000000;
 }
 .filter fieldset{
   border: none;
@@ -244,9 +256,11 @@ color: #fb565a;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
+  color: #000000;
+  font-style: bold;
 }
 .filter-option{
-  color: #797c7f;
+  color: #283136;
 }
 .filter ul{
   list-style: none;
@@ -274,17 +288,18 @@ color: #fb565a;
 
 .filter-input:hover + label,
 .filter-input:focus + label{
-  color: #4d4d4d;
+  color: #797c7f;
 }
 
 .filter-input:disabled + label{
-  color: #bec1c2;
+  color: #ced0d0;
 
   opacity: 0.5;
 }
 .show{
+  font-size: 16px;
+  line-height: 18px;
   text-align: center;
-  vertical-align: middle;
   color: #000000;
   text-transform: uppercase;
   background-color:#eeeeee;
@@ -302,6 +317,7 @@ color: #fb565a;
   border-top: 2px solid #bfbfbf;
 }
 
+
 .catalog-list{
   list-style: none;
 }
@@ -315,6 +331,20 @@ color: #fb565a;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
+}
+
+
+.window{
+  text-transform: uppercase;
+  color: #000000;
+}
+.window:hover,
+.window:focus{
+color: #fb565a;
+}
+/* Меняем цвет при наведении и фокусе */
+.window:active{
+  color:#afafaf;
 }
 
 .catalog-item h3 {
@@ -359,17 +389,29 @@ footer{
   text-align: start;
   padding-left: 350px;
 }
+/* Описываем footer */
+
 .visually-hidden h2{
   font-size: 45px;
   line-height: 45px;
   color: #000000;
 }
+/* Добавляем свойства заголовкам скрытого класса */
+
+
 .visually-hidden p{
   color: #000000;
   font-size: 18px;
   line-height: 18px;
   font-weight: bold;
 }
+/* описываем параграфы, скрытого класса */
+
+/* .visually-hidden{
+  display: none;
+} */
+/*Прячем скрываемые объекты */
+
 
 .write-form input[type="text"],
 .write-form input[type="email"],
@@ -387,3 +429,4 @@ footer{
   outline: none;
   border-color: #000000;
 }
+/* Стилизуем форму "Напишите нам" */
