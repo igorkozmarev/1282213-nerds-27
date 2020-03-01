@@ -1,22 +1,21 @@
-body{
+body {
   margin: 0;
   font-size: 16px;
   line-height: 24px;
   color: #283136;
   font-weight: 400;
-  font-family: "Roboto",Arial,serif;
+  font-family: "Roboto", Arial, serif;
   background-color: white;
- }
+}
 /* .inner-page{
   color: #000000;
 } */
-
-  a{
-   text-decoration: none;
- }
+a {
+ text-decoration: none;
+}
  /* Убираем линии у ссылок */
 
- .button{
+.button {
   font: inherit;
   text-align: center;
   color: #ffffff;
@@ -26,87 +25,84 @@ body{
   border: none;
 }
 
-.main-navigation{
+.main-navigation {
   font-size: 14px;
   line-height: 20px;
   background-color: #eeeeee;
   color: #000000;
- }
+}
 
 
 .site-navigation,
-.basket{
+.basket {
   list-style: none;
 }
 /* Убираем буллиты */
 
-.site-navigation-current{
+.site-navigation-current {
   color: #000000;
   border-bottom: 2px solid #fb565a;
 }
 
-.main-navigation a{
+.main-navigation a {
   text-transform: uppercase;
   color: #000000;
 }
 /* Задаём ссылкам заглавные буквы */
 
 .main-navigation a:hover,
-.main-navigation a:focus{
-color: #fb565a;
+.main-navigation a:focus {
+  color: #fb565a;
 }
 /* Меняем цвет при наведении и фокусе */
 
 
-.main-navigation a:active{
+.main-navigation a:active {
   color:#afafaf;
 }
 
 
-/*
-.slide{
-  display: none;
-} */
-.slider b{
+
+.slider b {
   color: #000000;
   font-size: 55px;
   line-height: 55px;
 }
 /* Меняем размеры b */
-.slider p{
+.slider p {
   color: #283136;
 }
-.slider-slide{
+.slider-slide {
   display: none;
 }
 /* Прячем слайды */
-.slider-slide-active{
-  background-color:#eeeeee;
-  display:block;
+.slider-slide-active {
+  background-color: #eeeeee;
+  display: block;
 }
 
 
 .button:hover,
-.button:focus{
-  background-color:#e74246;
+.button:focus {
+  background-color: #e74246;
 }
 /* Цвет фокуса  и наведения*/
-.button:active{
-  color:#e37376;
+.button:active {
+  color: #e37376;
   background-color: #d7373b;
 }
-.order{
-  color:black;
+.order {
+  color: #000000;
   list-style: none;
 }
 /* Убираем буллиты */
 
-.product{
+.product {
   text-align: left;
 }
 /* Выравниваем по левому краю */
 
-.order h3{
+.order h3 {
   line-height: 30px;
   font-size: 20px;
   text-transform: uppercase;
@@ -114,7 +110,7 @@ color: #fb565a;
 /* Задаём размеры заголовков */
 
 
-.app{
+.app {
   font: inherit;
 
   text-align: center;
@@ -128,16 +124,16 @@ color: #fb565a;
 /* Стилизуем ссылку */
 
 .app:hover,
-.app:focus{
-  background-color:#00bc6c;
+.app:focus {
+  background-color: #00bc6c;
 }
 /* Добавляем стиль при фокусе, наведении */
-.app:active{
-  color:#4dc491;
+.app:active {
+  color: #4dc491;
   background-color: #00aa62;
 }
 
-.presentation{
+.presentation {
   font: inherit;
 
   text-align: center;
@@ -145,59 +141,63 @@ color: #fb565a;
   vertical-align: middle;
   text-transform: uppercase;
 
-  background-color:  #efc84a;
+  background-color: #efc84a;
 }
 /* Стилизуем ссылку */
 
 .presentation:hover,
-.presentation:focus{
+.presentation:focus {
   background-color: #eab534;
 }
 /* Добавляем стиль при фокусе, наведении */
-.presentation:active{
+.presentation:active {
   color: #edc265;
   background-color: #e5a722;
 }
 
-.index-columns{
-  background-color:#ffffff;
+.index-columns {
+  background-color: #ffffff;
 }
 
 
 
-.description h2{
+.description h2 {
   font-size: 45px;
   line-height: 45px;
   color: #000000;
 }
-.description p{
+
+.description p {
   font-size: 16px;
   line-height: 24px;
   color: #283136;
 }
-.description b{
+
+.description b {
   text-transform: uppercase;
   color: #000000;
 }
-.description li{
-  color: #283136;
 
+.description li {
+  color: #283136;
 }
 /* Описание класса description */
 
 
 
-.statistics li{
+.statistics li {
   list-style: none;
   font-size: 45px;
   line-height: 50px;
   color: #000000;
 }
-.statistics p{
+
+.statistics p {
   font-size: 16px;
   line-height: 18px;
   color: #283136;
 }
+
 .statistics .start{
   text-transform: uppercase;
   font-size: 16px;
@@ -206,24 +206,25 @@ color: #fb565a;
 }
 /* Описание класса statistics */
 
-.logotypes ul{
+.logotypes ul {
   list-style: none;
 }
 
 
-.address{
-  background-color:white;
-  width: 319px;	height: 308px;
+.address {
+  background-color: #ffffff;
+  width: 319px;
+  height: 308px;
   text-align: left;
 }
-.address b{
+.address b {
   font-size: 18px;
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
 }
 
-.write-1{
+.write-1 {
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
@@ -231,86 +232,98 @@ color: #fb565a;
   background-color: #fb565a;
   border:none;
 }
+
 .write-1:hover,
-.write-1:focus{
+.write-1:focus {
   background-color: #e74246;
 }
-.write-1:active{
+
+.write-1:active {
   color:#e37376;
   background-color: #d7373b;
 }
 
-.page-title{
+.page-title {
   height: 200px;
   width: auto;
-  background-color:#eeeeee;
+  background-color: #eeeeee;
   font-size: 55px;
   line-height: 55px;
   text-align: center;
   color: #000000;
 }
-.filter fieldset{
+
+.filter fieldset {
   border: none;
 }
-.filter legend{
+
+.filter legend {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
   color: #000000;
   font-style: bold;
 }
-.filter-option{
+
+.filter-option {
   color: #283136;
 }
-.filter ul{
+
+.filter ul {
   list-style: none;
   line-height: 20px;
 }
 
-.filter b{
+.filter b {
   color: #000000;
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
 }
-.sort a{
+
+.sort a {
   font-size: 14px;
   text-transform: uppercase;
   color:#b2b2b2;
 }
+
 .sort a:hover,
-.sort a:focus{
-  color:#666666;
+.sort a:focus {
+  color: #666666;
 }
-.sort a:active{
+
+.sort a:active {
   color: #000000;
 }
 
 .filter-input:hover + label,
-.filter-input:focus + label{
+.filter-input:focus + label {
   color: #797c7f;
 }
 
-.filter-input:disabled + label{
+.filter-input:disabled + label {
   color: #ced0d0;
 
   opacity: 0.5;
 }
-.show{
+
+.show {
   font-size: 16px;
   line-height: 18px;
   text-align: center;
   color: #000000;
   text-transform: uppercase;
-  background-color:#eeeeee;
-  border:none;
+  background-color: #eeeeee;
+  border: none;
 }
+
 .show:hover,
-.show:focus{
+.show:focus {
   color: #000000;
   background-color: #dfdfdf;
 }
-.show:active{
+
+.show:active {
   outline: none;
   color: #959595;
   background-color: #d5d5d5;
@@ -318,80 +331,88 @@ color: #fb565a;
 }
 
 
-.catalog-list{
+.catalog-list {
   list-style: none;
 }
-.catalog-item img{
+
+.catalog-item img {
   border-top: 40px solid #e9e9e9;
 }
-.catalog-item img:hover{
-  border-color:#4d4d4d;
+
+.catalog-item img:hover {
+  border-color: #4d4d4d;
 }
-.catalog-item a{
+
+.catalog-item a {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
 }
 
 
-.window{
+.window {
   text-transform: uppercase;
   color: #000000;
 }
+
 .window:hover,
-.window:focus{
+.window:focus {
 color: #fb565a;
 }
 /* Меняем цвет при наведении и фокусе */
-.window:active{
-  color:#afafaf;
+.window:active {
+  color: #afafaf;
 }
 
 .catalog-item h3 {
   font-size: 14px;
   line-height: 18px;
 }
-.catalog-item-price p{
+
+.catalog-item-price p {
   font-size: 14px;
   line-height: 20px;
   text-align: center;
 
   background-color: #e5e5e5;
 }
+
 .catalog-item-price .button{
   line-height: 18px;
   color: #ffffff;
 }
 
-footer{
+footer {
   padding-top: 470px;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
   font-weight: 400;
-  font-family: "Roboto",Arial,serif;
+  font-family: "Roboto", Arial, serif;
   background-color: #ffffff;
 }
-.footer ul{
+
+.footer ul {
   list-style: none;
 }
 
-.footer b{
+.footer b {
   font-size: 36px;
   line-height: 36px;
   color: #000000;
 }
-.footer p{
+
+.footer p {
   font-size: 16px;
   line-height: 22px;
-  color:#444444;
+  color: #444444;
   text-align: start;
   padding-left: 350px;
 }
 /* Описываем footer */
 
-.visually-hidden h2{
+.visually-hidden h2 {
   font-size: 45px;
   line-height: 45px;
   color: #000000;
@@ -399,7 +420,7 @@ footer{
 /* Добавляем свойства заголовкам скрытого класса */
 
 
-.visually-hidden p{
+.visually-hidden p {
   color: #000000;
   font-size: 18px;
   line-height: 18px;
@@ -415,17 +436,19 @@ footer{
 
 .write-form input[type="text"],
 .write-form input[type="email"],
-.write-form input[type="text"]{
+.write-form input[type="text"] {
   font-size: 16px;
   line-height: 18px;
   color: #000000;
   background-color: #f9f6f3;
   border: 1px solid #d7dcde;
 }
-.write-form input:hover{
+
+.write-form input:hover {
   border-color: #b4b9bb;
 }
-.write-form input:focus{
+
+.write-form input:focus {
   outline: none;
   border-color: #000000;
 }
