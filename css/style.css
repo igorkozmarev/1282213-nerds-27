@@ -20,6 +20,7 @@ a {
   text-align: center;
   color: #ffffff;
   line-height: 18px;
+  font-weight: 500;
   text-transform: uppercase;
   background-color: #fb565a;
   border: none;
@@ -28,6 +29,7 @@ a {
 .main-navigation {
   font-size: 14px;
   line-height: 20px;
+  font-weight: 500;
   background-color: #eeeeee;
   color: #000000;
 }
@@ -65,6 +67,7 @@ a {
 
 .slider b {
   color: #000000;
+  font-weight: 500;
   font-size: 55px;
   line-height: 55px;
 }
@@ -117,7 +120,7 @@ a {
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
-
+  font-weight: 500;
   background-color: #00ca74;
   border: none;
 }
@@ -140,6 +143,7 @@ a {
   color: #ffffff;
   vertical-align: middle;
   text-transform: uppercase;
+  font-weight: 500;
 
   background-color: #efc84a;
 }
@@ -164,6 +168,7 @@ a {
 .description h2 {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -175,6 +180,7 @@ a {
 
 .description b {
   text-transform: uppercase;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -228,6 +234,7 @@ a {
   text-align: center;
   vertical-align: middle;
   color: #ffffff;
+  font-weight: 500;
   text-transform: uppercase;
   background-color: #fb565a;
   border:none;
@@ -250,6 +257,7 @@ a {
   font-size: 55px;
   line-height: 55px;
   text-align: center;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -312,6 +320,7 @@ a {
   line-height: 18px;
   text-align: center;
   color: #000000;
+  font-weight: 500;
   text-transform: uppercase;
   background-color: #eeeeee;
   border: none;
@@ -347,6 +356,7 @@ a {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 30px;
+  font-weight: 500;
 }
 
 
@@ -360,6 +370,7 @@ a {
 color: #fb565a;
 }
 /* Меняем цвет при наведении и фокусе */
+
 .window:active {
   color: #afafaf;
 }
@@ -379,8 +390,34 @@ color: #fb565a;
 
 .catalog-item-price .button{
   line-height: 18px;
+  font-weight: 500;
   color: #ffffff;
 }
+/* Описываем кнопку стоимости */
+
+.next {
+  list-style: none;
+}
+
+.next a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.next a:hover,
+.next a:focus {
+  background-color: #dfdfdf;
+}
+
+.next a:active {
+  background-color: #d5d5d5;
+  color: #a9a9a9;
+}
+
 
 footer {
   padding-top: 470px;
@@ -415,6 +452,7 @@ footer {
 .visually-hidden h2 {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500;
   color: #000000;
 }
 /* Добавляем свойства заголовкам скрытого класса */
@@ -424,7 +462,7 @@ footer {
   color: #000000;
   font-size: 18px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 700;
 }
 /* описываем параграфы, скрытого класса */
 
@@ -452,4 +490,24 @@ footer {
   outline: none;
   border-color: #000000;
 }
-/* Стилизуем форму "Напишите нам" */
+
+.send {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border:none;
+}
+
+.send:hover,
+.send:focus {
+  background-color: #e74246;
+}
+
+.send:active {
+  color:#e37376;
+  background-color: #d7373b;
+}
+/* Стилизуем кнопку "Отправить" */
