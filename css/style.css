@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   font-family: "Roboto", Arial, serif;
   background-color: white;
+  min-width: 1200px;
 }
 /* .inner-page{
   color: #000000;
@@ -26,6 +27,7 @@ a {
   border: none;
 }
 
+
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
@@ -33,7 +35,6 @@ a {
   background-color: #eeeeee;
   color: #000000;
 }
-
 
 .site-navigation,
 .basket {
@@ -511,3 +512,65 @@ footer {
   background-color: #d7373b;
 }
 /* Стилизуем кнопку "Отправить" */
+.container{
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 160px;
+  height: 65px;
+  outline: 1px solid blue;
+}
+
+.site-navigation{
+  width: 440px;
+  outline: 1px solid blue;
+}
+
+.basket{
+  width: 120px;
+  outline: 1px solid blue;
+}
+.product{
+  width: 300px;
+  height: 356px;
+  outline: 1px solid blue;
+}
+
+.flex-1{
+  width: 550px;
+  outline: 1px solid blue;
+}
+
+.flex-2{
+  order: -1;
+  width: 265px;
+  outline: 1px solid blue;
+}
+
+.flexlogo-1{
+ width: 199px;
+ height: 68px;
+ outline: 1px solid blue;
+}
+.flexlogo-2{
+  width: 209px;
+  height: 87px;
+  outline: 1px solid blue;
+}
+
+.flexlogo-3{
+  width: 185px;
+  height: 52px;
+  outline: 1px solid blue;
+}
+
+.flexlogo-4{
+  width: 173px;
+  height: 84px;
+  outline: 1px solid blue;
+}

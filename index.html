@@ -10,24 +10,26 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="logo">
-          <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип нёрдс">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="">Студия</a></li>
-          <li><a href="">Клиенты</a></li>
-          <li><a href="nerds-catalog.html">Магазин</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-        <ul class="basket">
-          <li>
-            <a href="">Корзина</a>
-          </li>
-        </ul>
+        <div class="container">
+          <a class="logo">
+            <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип нёрдс">
+          </a>
+          <ul class="site-navigation">
+            <li><a href="">Студия</a></li>
+            <li><a href="">Клиенты</a></li>
+            <li><a href="nerds-catalog.html">Магазин</a></li>
+            <li><a href="">Контакты</a></li>
+          </ul>
+          <ul class="basket">
+            <li>
+              <a href="">Корзина</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <h1 class="visually-hidden">Нёрдс</h1>
+      <h1 class="visually-hidden container">Нёрдс</h1>
       <section class="slider">
         <div class="slider-slide slider-slide-active">
           <div>
@@ -60,7 +62,7 @@
           </div>
         </div>
       </section>
-      <section class="order">
+      <section class="order container">
         <div class="product">
           <img src="img/illustration-1.png" width="300" height="146" alt="Веб-сайты">
           <h3>Веб-сайты</h3>
@@ -105,23 +107,23 @@
         </section>
       </div>
       <section class="logotypes">
-        <ul>
-          <li>
+        <ul class="container">
+          <li class="flexlogo-1">
              <a class="logo-1" href="https://htmlacademy.ru/intensive/htmlcss">
                <img class="logo-1" src="img/logo-1.png" width="199" height="68" alt="Логотип htmlacademy">
              </a>
           </li>
-          <li>
+          <li class="flexlogo-2">
             <a class="logo-2" href="#">
               <img src="img/logo-2.png" width="209" height="87" alt="Логотип барбершоп Borodinski">
             </a>
           </li>
-          <li>
+          <li class="flexlogo-3">
             <a class="logo-3" href="#">
               <img src="img/logo-3.png" width="185" height="52" alt="Логотип pink">
             </a>
           </li>
-          <li>
+          <li class="flexlogo-4">
             <a class="logo-4" href="#">
             <img src="img/logo-4.png" width="173" height="84" alt="Логотип mishka">
             </a>
@@ -130,7 +132,7 @@
       </section>
       <section class="address" >
         <!-- <address> -->
-        <div >
+        <div>
           <b>
            Nёrds design studio
           </b>
@@ -141,26 +143,32 @@
         </div>
         <!-- </address> -->
           <a class="write-1" href="">Напишите нам</a>
-          <img src="img/map.png" width="1440" height="416" alt="адрес офиса г. Санкт-Петербург,
-           Б. Конюшенная, д. 19/8">
+          <div class="map">
+            <img src="img/map.png" width="1440" height="416" alt="адрес офиса г. Санкт-Петербург,
+             Б. Конюшенная, д. 19/8">
+          </div>
           <img src="img/map-marker.png" width="231" height="190" alt="Указатель на карте">
       </section>
     </main>
     <footer class="footer">
-      <div>
-        <b>Давайте дружить, это выгодно!</b>
-        <p> Скидка 10% для друзей из социальных сетей</p>
-        <ul>
-          <li>
-            <a href="#"><span class="visually-hidden">Вконтакте</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="visually-hidden">Фейсбук</span></a>
-          </li>
-          <li>
-            <a href="#"><span class="visually-hidden">Инстаграм</span></a>
-          </li>
-        </ul>
+      <div class="container">
+        <div class="flex-1">
+          <b>Давайте дружить, это выгодно!</b>
+          <p> Скидка 10% для друзей из социальных сетей</p>
+        </div>
+        <div class="flex-2">
+          <ul>
+            <li>
+              <a href="#"><span class="visually-hidden">Вконтакте</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="visually-hidden">Фейсбук</span></a>
+            </li>
+            <li>
+              <a href="#"><span class="visually-hidden">Инстаграм</span></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
     <section class="visually-hidden">
