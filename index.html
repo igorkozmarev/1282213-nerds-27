@@ -10,11 +10,11 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <div class="container">
+        <div class="container flex">
           <a class="logo">
             <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип нёрдс">
           </a>
-          <ul class="site-navigation container">
+          <ul class="site-navigation flex">
             <li><a href="">Студия</a></li>
             <li><a href="">Клиенты</a></li>
             <li><a href="nerds-catalog.html">Магазин</a></li>
@@ -31,7 +31,7 @@
     <main>
       <h1 class="visually-hidden container">Нёрдс</h1>
       <section class="slider">
-        <div class="slider-slide slider-slide-active">
+        <div class="flex container slider-slide slider-slide-active ">
           <div>
             <b> Долго, дорого,<br> скурпулезно.</b>
             <p>Математически выверенный дизайн <br> для вашего сайта, или  мобильного приложения</p>
@@ -62,7 +62,7 @@
           </div>
         </div>
       </section>
-      <section class="order container">
+      <section class="order container flex">
         <div class="product">
           <img src="img/illustration-1.png" width="300" height="146" alt="Веб-сайты">
           <h3>Веб-сайты</h3>
@@ -85,7 +85,7 @@
           <a class="presentation" href="">Заказать</a>
         </div>
       </section>
-      <div class="index-columns">
+      <div class="index-columns container flex">
         <div class="description">
           <h2> Мы маленькая, но гордая дизайн студия из Краснодара</h2>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -96,18 +96,24 @@
             <li>Слайдшоу и видео для корпоративных презентаций</li>
           </ul>
         </div>
-        <section class="statistics">
-          <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип нёрдс">
-          <b class="start">С 2004 года любим точность во всём:</b>
-          <ul>
-            <li><b>146</b><sup>%</sup><p class="">Уровень самоотдачи</p></li>
-            <li><b>100</b><sup>%</sup><p class="">Cоблюдение  сроков</p></li>
-            <li><b>50</b><sup>%</sup><p class="">Минимальная предоплата</p></li>
-          </ul>
+        <section class="statistics container">
+          <div class="statistics flex">
+            <div class="statistics">
+              <img src="img/nerds-illustration.png" width="360" height="208" alt="Логотип нёрдс">
+              <b class="start">С 2004 года любим точность во всём:</b>
+            </div>
+            <div>
+              <ul class="flex">
+                <li><b>146</b><sup>%</sup><p class="">Уровень самоотдачи</p></li>
+                <li><b>100</b><sup>%</sup><p class="">Cоблюдение  сроков</p></li>
+                <li><b>50</b><sup>%</sup><p class="">Минимальная предоплата</p></li>
+              </ul>
+            </div>
+          </div>
         </section>
       </div>
       <section class="logotypes">
-        <ul class="container">
+        <ul class="container flex">
           <li class="flexlogo-1">
              <a class="logo-1" href="https://htmlacademy.ru/intensive/htmlcss">
                <img class="logo-1" src="img/logo-1.png" width="199" height="68" alt="Логотип htmlacademy">
@@ -151,7 +157,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container flex">
         <div class="flex-1">
           <b>Давайте дружить, это выгодно!</b>
           <p> Скидка 10% для друзей из социальных сетей</p>

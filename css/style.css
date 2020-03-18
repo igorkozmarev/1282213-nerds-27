@@ -512,65 +512,139 @@ footer {
   background-color: #d7373b;
 }
 /* Стилизуем кнопку "Отправить" */
-.container{
+.container {
   width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin:0 auto;
+  box-sizing: border-box;
+}
+
+.flex {
   display: flex;
   justify-content: space-between;
 }
-.logo{
+
+.catalog-columns {
+ display: flex;
+ justify-content: space-between;
+}
+.logo {
   width: 160px;
   height: 65px;
   outline: 1px solid blue;
 }
 
-.site-navigation{
+.site-navigation {
   width: 440px;
   outline: 1px solid blue;
 }
 
-.basket{
+.basket {
   width: 120px;
   outline: 1px solid blue;
 }
-.product{
+.product {
   width: 300px;
   height: 356px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   outline: 1px solid blue;
 }
-
-.flex-1{
+.index-columns .container {
+  margin: 80px;
+}
+.flex-1 {
   width: 550px;
   outline: 1px solid blue;
 }
 
-.flex-2{
+.flex-2 {
   order: -1;
   width: 265px;
   outline: 1px solid blue;
 }
 
-.flexlogo-1{
+.flexlogo-1 {
  width: 199px;
  height: 68px;
+ margin-left: 45px;
+ margin-right: 45px;
  outline: 1px solid blue;
 }
-.flexlogo-2{
+.flexlogo-2 {
   width: 209px;
   height: 87px;
+  margin-left: 45px;
+  margin-right: 45px;
   outline: 1px solid blue;
 }
 
-.flexlogo-3{
+.flexlogo-3 {
   width: 185px;
   height: 52px;
+  margin-left: 45px;
+  margin-right: 45px;
   outline: 1px solid blue;
 }
 
-.flexlogo-4{
+.flexlogo-4 {
   width: 173px;
   height: 84px;
+  margin-left: 45px;
+  margin-right: 45px;
   outline: 1px solid blue;
+}
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  height: 270x;
+  padding-top: 10px;
+}
+
+.logotypes .container {
+  align-items: center;
+  border-top: 1px solid #eeeeee ;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 80px;
+  height: 185px;
+  justify-content: center;
+
+}
+
+.filter{
+  width: 260px;
+  outline: 1px solid blue;
+}
+.catalog {
+  width: 760px;
+  outline: 1px solid blue;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 60px;
+  list-style: none;
+}
+.catalog-item {
+  width: 360px;
+  outline: 1px solid blue;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  min-height: 620px;;
+}
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+.next {
+ padding: 0;
+ margin: 0;
+ list-style: none;
+ outline: 1px solid blue;
+ min-height: 47px;
 }
