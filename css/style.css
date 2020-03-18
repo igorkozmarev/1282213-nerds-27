@@ -64,7 +64,13 @@ a {
   color:#afafaf;
 }
 
+.main {
+  background-color: #eeeeee;
+}
 
+.slider {
+  background-color: #eeeeee;
+}
 
 .slider b {
   color: #000000;
