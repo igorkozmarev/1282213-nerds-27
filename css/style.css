@@ -27,6 +27,9 @@ a {
   border: none;
 }
 
+.main-header {
+  background-color: #eeeeee;
+}
 
 .main-navigation {
   font-size: 16px;
@@ -226,7 +229,7 @@ a {
 
 .address {
   background-color: #ffffff;
-  width: 319px;
+  width: 100%;
   height: 308px;
   text-align: left;
 }
@@ -653,4 +656,10 @@ footer {
  list-style: none;
  outline: 1px solid blue;
  min-height: 47px;
+}
+.addresspost {
+  position:absolute;
+  width: 310px;
+  height: 320px;
+  background-color: #ffffff;
 }
